@@ -1,6 +1,6 @@
 public class Costing {
     public static int calculateCost(String vehicleType) {
-    	//TODO: I will update the case for new vehicle 
+    	//TODO: I will update the case for new vehicle type like truck etc
         switch (vehicleType) {
             case "Car":
                 return 20;
