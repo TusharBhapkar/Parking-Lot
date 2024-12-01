@@ -2,7 +2,7 @@ import java.time.LocalTime;
 
 public class Main {
     public static void main(String[] args) {
-        ParkingLot parkingLot = new ParkingLot(2);
+        ParkingLot parkingLot = new ParkingLot(10000);
 
         System.out.println(parkingLot.displayStatus());
         
